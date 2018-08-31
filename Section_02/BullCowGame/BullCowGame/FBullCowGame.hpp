@@ -6,6 +6,8 @@
 //  Copyright © 2017 darren.sill. All rights reserved.
 //
 
+/* The game logic. No view code or direct user interaction */
+
 #ifndef FBullCowGame_hpp
 #define FBullCowGame_hpp
 
@@ -14,6 +16,7 @@
 #endif /* FBullCowGame_hpp */
 #pragma once
 
+// To make syntax Unreal Friendly
 using FString = std::string;
 using int32 = int;
 

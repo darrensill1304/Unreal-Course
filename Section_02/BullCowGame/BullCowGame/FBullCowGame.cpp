@@ -5,7 +5,7 @@
 //  Created by Darren Sill on 15/10/2017.
 //  Copyright © 2017 darren.sill. All rights reserved.
 //
-
+#pragma once
 #include "FBullCowGame.hpp"
 #include <map>
 #define TMap std::map
@@ -30,11 +30,9 @@ void FBullCowGame::Reset() {
 
 // Getters
 int32 FBullCowGame::GetCurrentTry() const { return MyCurrentTry; }
-int32 FBullCowGame::GetMaxTries() const { return MyMaxTries; }
 int32 FBullCowGame::GetHiddenWordLength() const { return (int32)MyHiddenWord.length(); }
-
-// Other Methods
 bool FBullCowGame::IsGameWon() const{ return bIsGameWon; }
+int32 FBullCowGame::GetMaxTries() const { return MyMaxTries; }
 
 EGuessStatus FBullCowGame::CheckGuessValidity(FString Guess) const {
     

@@ -12,7 +12,7 @@ This is the console excecutable, that makes use of the Bull Cow game.
 This acts as the "view" in the MVC pattern, and is responsible for all
 user interaction. For game logic, see the FBullCowGame class.
 */
-
+#pragma once
 #include <iostream>
 #include <string>
 #include "FBullCowGame.hpp"
